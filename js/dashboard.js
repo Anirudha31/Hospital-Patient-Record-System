@@ -1,6 +1,8 @@
 // Redirect if not logged in
 let currentUser = null;
 
+//added for test branch
+
 auth.onAuthStateChanged(user => {
   if (!user) {
     window.location = "login.html";
