@@ -1,11 +1,11 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyAVULPxlDkN8kqdZ1weiFQ76XVE2TnzY44",
-  authDomain: "hospital-patient-record-system.firebaseapp.com",
-  projectId: "hospital-patient-record-system",
-  storageBucket: "hospital-patient-record-system.firebasestorage.app",
-  messagingSenderId: "171141672577",
-  appId: "1:171141672577:web:db8457293927e553f9e780",
-  measurementId: "G-VJ147WN7LX"
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: ""
 };
 
 
