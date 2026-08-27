@@ -4,11 +4,11 @@ A simple, modern, and responsive web-based Hospital Patient Record System built 
 
 -> Setup Instructions -------------------------------------------------------------------------------------------------------------
 
-1. Clone the repository ✔️
+1. Clone the repository 
    
    git clone https://github.com/Anirudha31/Hospital-Patient-Record-System.git
 
-2️. Add your Firebase project config ✔️
+2️. Add your Firebase project config 
 
   Inside js/app.js, replace with your Firebase config:
 
@@ -21,7 +21,7 @@ A simple, modern, and responsive web-based Hospital Patient Record System built 
       appId: ""
     };
 
-3️. Enable Firebase Services ✔️
+3️. Enable Firebase Services 
 
  In Firebase Console:
  
@@ -29,16 +29,16 @@ A simple, modern, and responsive web-based Hospital Patient Record System built 
  
  Firestore Database (Create database)
 
-4.  Change Firestore Security Rules ✔️
+4.  Change Firestore Security Rules 
 
   Follow these steps:
 
-  📌 Step 1: Open Firebase Console
+   Step 1: Open Firebase Console
 
   Go to:
   Firebase Console → Firestore Database → Rules Tab
 
-  📌 Step 2: Replace default rules with these:
+   Step 2: Replace default rules with these:
   
     rules_version = '2';
     service cloud.firestore {
@@ -55,10 +55,10 @@ A simple, modern, and responsive web-based Hospital Patient Record System built 
         }
       }
     }
-   📌 Step 3: Publish the Rules
+  Step 3: Publish the Rules
 
  Click "Publish" to apply the changes.
 
-5. Open the project ✔️
+5. Open the project 
    
  Just open any HTML file in your browser .
